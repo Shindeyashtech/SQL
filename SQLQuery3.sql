@@ -32,3 +32,7 @@ select sum(age) from student
 select Min(age) from student 
 select max(age) from student  
 select avg(age) from student 
+
+select  student_id,first_name, last_name,age, ROW_NUMBER() OVER (ORDER BY age DESC)RANKING  from student 
+select  student_id,first_name, last_name,age, ROW_NUMBER() OVER (ORDER BY age ASC)RANKING  from student 
+
