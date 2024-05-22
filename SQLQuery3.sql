@@ -28,3 +28,4 @@ select * from student where first_name like 's%'
 select count(first_name) from student 
 select count(Last_name) from student
 select count(first_name) from student where age > 20
+select sum(age) from student  
