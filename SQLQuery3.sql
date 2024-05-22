@@ -24,3 +24,4 @@ INSERT INTO student (student_id,first_name, last_name, age, email) VALUES
 (9,'William', 'Anderson', 23, 'william.anderson@example.com'),
 (10,'Ava', 'Thomas', 19, 'ava.thomas@example.com');
 
+select * from student where first_name like 's%'
