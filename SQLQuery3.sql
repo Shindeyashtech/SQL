@@ -29,3 +29,6 @@ select count(first_name) from student
 select count(Last_name) from student
 select count(first_name) from student where age > 20
 select sum(age) from student  
+select Min(age) from student 
+select max(age) from student  
+select avg(age) from student 
