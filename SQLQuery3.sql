@@ -25,3 +25,4 @@ INSERT INTO student (student_id,first_name, last_name, age, email) VALUES
 (10,'Ava', 'Thomas', 19, 'ava.thomas@example.com');
 
 select * from student where first_name like 's%'
+select count(first_name) from student 
