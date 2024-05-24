@@ -39,3 +39,7 @@ SELECT
     DENSE_RANK() OVER (ORDER BY salary DESC) AS rank
 FROM 
     employee
+
+    SELECT 
+    count(employee_id), 
+    first_name from employee group by last_name having salary >600000
