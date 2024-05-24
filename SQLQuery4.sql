@@ -43,3 +43,19 @@ FROM
     SELECT 
     count(employee_id), 
     first_name from employee group by last_name having salary >600000
+
+
+SELECT 
+   COUNT(employee_id) AS employee_count, 
+   --count(first_name),
+	salary
+   --last_name
+FROM 
+    employee
+GROUP BY 
+   --last_name,
+	first_name,
+	salary
+HAVING 
+    MAX(salary) > 5000;
+
