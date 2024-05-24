@@ -27,3 +27,5 @@ INSERT INTO employee (employee_id, first_name, last_name, position, salary) VALU
 (13, 'Ethan', 'Harris', 'HR', 51000.00),
 (14, 'Mia', 'Martin', 'Designer', 57000.00),
 (15, 'Mason', 'Thompson', 'Developer', 60000.00);
+
+select * from employee
