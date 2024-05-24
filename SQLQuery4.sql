@@ -29,3 +29,13 @@ INSERT INTO employee (employee_id, first_name, last_name, position, salary) VALU
 (15, 'Mason', 'Thompson', 'Developer', 60000.00);
 
 select * from employee
+
+SELECT 
+    employee_id, 
+    first_name, 
+    last_name, 
+    position, 
+    salary,
+    DENSE_RANK() OVER (ORDER BY salary DESC) AS rank
+FROM 
+    employee
