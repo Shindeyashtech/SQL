@@ -44,3 +44,13 @@ INSERT INTO orders (c_id, order_id, orderdetails) VALUES
 (8, 1008, 'Order details for order 1008'),
 (9, 1009, 'Order details for order 1009'),
 (10, 1010, 'Order details for order 1010');
+
+
+--select * from orders
+select orders.order_id,
+customer.c_name,
+orders.orderdetails 
+from orders 
+INNER JOIN  customer 
+on orders.c_id = customer.c_id;
+
