@@ -64,3 +64,13 @@ orders.orderdetails
 from orders 
 LEFT JOIN  customer 
 on orders.c_id = customer.c_id;
+
+
+
+select orders.order_id,
+customer.c_name,
+customer.c_id,
+orders.orderdetails 
+from orders 
+right JOIN  customer 
+on orders.c_id = customer.c_id;
