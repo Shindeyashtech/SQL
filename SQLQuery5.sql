@@ -27,3 +27,7 @@ INSERT INTO employee (id, name, managerId) VALUES
 (117, 'Rachel', 112),     -- Rachel reports to Mona
 (118, 'Steve', 113),      -- Steve reports to Nancy
 (119, 'Tracy', 114);      -- Tracy reports to Oscar
+
+select id,name,managerId from company 
+start with name='Bob'
+connect by prior id = managerId
