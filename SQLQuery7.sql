@@ -47,3 +47,7 @@ ALTER TABLE Schooldetails DROP COLUMN bloodgrp;
 ALTER TABLE Schooldetails MODIFY COLUMN bloodgrp INT;
  ALTER TABLE Schooldetails
     ALTER COLUMN bloodgrp INT;
+
+alter table Schooldetails drop column  bloodgrp 
+truncate table 
+Schooldetails
