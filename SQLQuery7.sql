@@ -14,3 +14,15 @@ insert into Schooldetails values
 ('priya', 18, 'chennai', 789012345)
   
 
+create table student (name varchar(20),RollNo int primary key,section varchar(20))
+ insert into student values
+ ('raj',20,'A'),
+ ('mayur',11,'A'),
+ ('aisha', 12,'B'),
+('rahul', 13,'A' ),
+('simran', 14,'B'),
+('vivek', 15, 'A' ),
+('anjali', 16,'C' ),
+('sahil', 17, 'D'),
+('priya', 18,'A' ),
+('arjun', 19, 'B' );
