@@ -51,3 +51,13 @@ ALTER TABLE Schooldetails MODIFY COLUMN bloodgrp INT;
 alter table Schooldetails drop column  bloodgrp 
 truncate table 
 Schooldetails
+
+
+
+
+
+
+
+
+drop table Schooldetails
+drop database  daysix
