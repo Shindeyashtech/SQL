@@ -29,3 +29,7 @@ create table student (name varchar(20),RollNo int primary key,section varchar(20
  
 select name,address from Schooldetails 
 where RollNo In(select RollNo from student where Section = 'A' )
+
+ 
+ select * from Schooldetails
+select * from student
