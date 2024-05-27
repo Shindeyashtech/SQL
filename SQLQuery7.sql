@@ -38,3 +38,12 @@ select * from student
 update Schooldetails
 Set address = 'Thane'   
 where RollNo=20
+
+
+alter table Schooldetails add bloodgrp varchar (20)
+alter table Schooldetails  RENAME column
+alter table Schooldetails modify column bloodgrp int
+ALTER TABLE Schooldetails DROP COLUMN bloodgrp;
+ALTER TABLE Schooldetails MODIFY COLUMN bloodgrp INT;
+ ALTER TABLE Schooldetails
+    ALTER COLUMN bloodgrp INT;
