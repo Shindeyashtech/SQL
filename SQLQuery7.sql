@@ -33,3 +33,8 @@ where RollNo In(select RollNo from student where Section = 'A' )
  
  select * from Schooldetails
 select * from student
+
+
+update Schooldetails
+Set address = 'Thane'   
+where RollNo=20
