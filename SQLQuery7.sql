@@ -26,3 +26,6 @@ create table student (name varchar(20),RollNo int primary key,section varchar(20
 ('sahil', 17, 'D'),
 ('priya', 18,'A' ),
 ('arjun', 19, 'B' );
+ 
+select name,address from Schooldetails 
+where RollNo In(select RollNo from student where Section = 'A' )
