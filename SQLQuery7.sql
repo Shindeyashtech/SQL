@@ -1,4 +1,4 @@
-create database daysix;
+   create database daysix;
 use daysix;
 
 create table Schooldetails (name varchar(20),RollNo int primary key,address varchar(20),contact int)
