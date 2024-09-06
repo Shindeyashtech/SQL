@@ -1,4 +1,4 @@
- create database yyash
+   create database yyash
 use yyash 
 create table studentProfile2(stud_id int primary key,
 firstname varchar(20),lastname varchar(20),DOB date  ) 
