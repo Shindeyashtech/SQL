@@ -1,4 +1,4 @@
-CREATE DATABASE  company;
+   CREATE DATABASE  company;
 USE company;
 
 CREATE TABLE employee (
