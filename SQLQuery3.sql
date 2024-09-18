@@ -1,4 +1,4 @@
--- Step 1: Create the Database
+     -- Step 1: Create the Database
 CREATE DATABASE  school;
 USE school;
 
