@@ -1,7 +1,8 @@
 create database dayfour;
 use dayfour;
 CREATE TABLE employee (
-    employee_id INT  PRIMARY KEY,
+      
+	employee_id INT  PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     position VARCHAR(50),
